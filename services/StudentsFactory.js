@@ -1,4 +1,4 @@
-studentlogin.factory('StudentsFactory', function StudentsFactory() {
+signIn.factory('StudentsFactory', function StudentsFactory() {
   var factory = {};
 
   factory.students = [];

@@ -1,6 +1,6 @@
-var studentlogin = angular.module('studentlogin', ['ui.router']);
+var signIn = angular.module('signIn', ['ui.router']);
 
-  studentlogin.config(function($stateProvider, $urlRouterProvider) {
+  signIn.config(function($stateProvider, $urlRouterProvider) {
     $stateProvider.state('home', {
       url: "",
       templateUrl: "partials/home.html"
