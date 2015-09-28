@@ -3,7 +3,7 @@
   <li ng-repeat="student in students | orderBy: name">
   {{ student.name }}</li>
   <span ng-show="!student.signedIn && !student.signedOut">
-    <button type="button" class="btn btn-default" ng-click="signIn(student)">Sign In</button>
+    <button type="button" class="btn btn-primary" ng-click="signIn(student)">Sign In</button>
   </span>
 
 </ul>
