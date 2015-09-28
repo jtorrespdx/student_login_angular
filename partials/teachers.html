@@ -13,8 +13,8 @@
   <ul>
     <li ng-repeat="student in areNotSignedIn = (students | filter: {signedIn: false, signedOut: false })">
     {{ student.name }}
-    </li>
-  </ul>
-  <br>
-  <br>
-  <a ui-sref="home"><button type="submit" class="btn btn-warning">Home</button></a>
+  </li>
+</ul>
+<br>
+<br>
+<a ui-sref="home"><button type="submit" class="btn btn-warning">Home</button></a>
