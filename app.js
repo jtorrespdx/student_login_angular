@@ -5,4 +5,10 @@ var signIn = angular.module('signIn', ['ui.router']);
       url: "",
       templateUrl: "partials/home.html"
     });
+
+    $stateProvider.state('sign-in', {
+      url:"/sign-in",
+      templateUrl: "partials/students.html",
+      controller:"StudentsCtrl"
+    });
   });
