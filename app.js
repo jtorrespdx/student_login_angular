@@ -11,4 +11,10 @@ var signIn = angular.module('signIn', ['ui.router']);
       templateUrl: "partials/students.html",
       controller:"StudentsCtrl"
     });
+
+    $stateProvider.staet('teacher', {
+      url:"/teachers",
+      templateUrl: "partials/teachers.html",
+      controller: "TeachersCtrl"
+    });
   });
