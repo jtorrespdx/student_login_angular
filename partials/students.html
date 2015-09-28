@@ -1,7 +1,7 @@
-<h1>Sign In, please!</h1>
+<h1>Welcome, Sign In!</h1>
 <ul>
   <li ng-repeat="student in students | orderBy: name">
-  {{ student.name }}</li>
+  {{ student.name }}
   <span ng-show="!student.signedIn && !student.signedOut">
     <button type="button" class="btn btn-primary" ng-click="signIn(student)">Sign In</button>
   </span>
@@ -9,5 +9,5 @@
   <span ng-show="student.signedIn && !student.signedOut">
     <button type="button" class="btn btn-danger" ng-click="signOut(student)">Sign out</button>
   </span>
-
+  </li>
 </ul>

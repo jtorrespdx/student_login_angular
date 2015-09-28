@@ -9,7 +9,7 @@ signIn.factory('StudentsFactory', function StudentsFactory() {
     {name: 'Fred Stooges', signedIn: false, signedOut: false},
     {name: 'Jason Franklin', signedIn: false, signedOut: false},
     {name: 'Hannah Jersey', signedIn: false, signedOut: false},
-    {name: 'Big Mary', signedIn: false, signedOut: false},
+    {name: 'Big Mary', signedIn: false, signedOut: false}
   ];
   return factory;
 });
