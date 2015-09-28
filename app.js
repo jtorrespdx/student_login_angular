@@ -12,7 +12,7 @@ var signIn = angular.module('signIn', ['ui.router']);
       controller:"StudentsCtrl"
     });
 
-    $stateProvider.staet('teacher', {
+    $stateProvider.state('teachers', {
       url:"/teachers",
       templateUrl: "partials/teachers.html",
       controller: "TeachersCtrl"
