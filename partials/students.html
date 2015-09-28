@@ -6,4 +6,8 @@
     <button type="button" class="btn btn-primary" ng-click="signIn(student)">Sign In</button>
   </span>
 
+  <span ng-show="student.signedIn && !student.signedOut">
+      <button type="button" class="btn btn-danger" ng-click="signOut(student)">Sign out</button>
+  </span>
+
 </ul>
