@@ -1,7 +1,7 @@
 <h1>Student Attendance</h1>
 
 <h3>Students present</h3>
-<p<ng-show="!areSignedIn.length">No students have signed in.</p>
+<p ng-show="!areSignedIn.length">No students have signed in.</p>
 <ul>
   <li ng-repeat="student in areSignedIn = (students | filter: {signedIn: true, signedOut: false})">
   {{ student.name }}
@@ -11,7 +11,7 @@
 <h3>Students Absent</h3>
   <p ng-show="!areNotSignedIn.Length">
   <ul>
-    <li ng-repeat="student in areNotSignedIn = (students | filter: {signedIn: false, signedOut: flase })">
+    <li ng-repeat="student in areNotSignedIn = (students | filter: {signedIn: false, signedOut: false })">
     {{ student.name }}
     </li>
   </ul>
