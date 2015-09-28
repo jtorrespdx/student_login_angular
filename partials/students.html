@@ -11,6 +11,14 @@
   </span>
   </li>
 </ul>
+
+<h3>Gone for the day</h3>
+  <p ng-show="!leftEarly.length">No one</p>
+  <ul>
+    <li ng-repeat="student in leftEarly = (students | filter: {signedIn: true, signedOut: true })">
+    {{ student.name }}
+  </li>
+</ul>
 <br>
 <br>
 <a ui-sref="home"><button type="submit" class="btn btn-warning">Home</button></a>
